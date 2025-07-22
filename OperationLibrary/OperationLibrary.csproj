@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>TZ.OperationLibrary</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataLibrary\DataLibrary.csproj" />
+    <ProjectReference Include="..\StoZoo.Dog\StoZoo.Dog.csproj" />
+  </ItemGroup>
+
+</Project>
